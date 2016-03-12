@@ -9,13 +9,13 @@ void danli()
 	int year;
 	double sum;
 	double ddddd=0;
-	printf("ÇëÊäÈëÄãµÄ±¾½ğ:");
+	printf("è¯·è¾“å…¥ä½ çš„æœ¬é‡‘:");
 	scanf("%lf",&principal);
 	sum=principal;
-	printf("ÄãµÄÄêÀûÂÊ:");
+	printf("ä½ çš„å¹´åˆ©ç‡:");
 	scanf("%lf",&rate);
 
-	printf("ÇëÊäÈë´æ´¢Ê±¼ä³¤£¬µ¥Î»ÎªÄê:");
+	printf("è¯·è¾“å…¥å­˜å‚¨æ—¶é—´é•¿ï¼Œå•ä½ä¸ºå¹´:");
 	scanf("%d",&year);
 
 	for(i=0;i<year;i++)
@@ -23,7 +23,7 @@ void danli()
 		ddddd=principal*rate;
 		sum=ddddd+sum;
 	}
-	printf("ÄãµÄËùµÃÇ®Îª%.2lf",sum);
+	printf("ä½ çš„æ‰€å¾—é’±ä¸º%.2lf",sum);
 }
 
 void ddd(){
@@ -31,13 +31,13 @@ void ddd(){
 	int i;
 	double rate,money;
 	double ddd;
-	printf("ÇëÊäÈëÄãµÄÄêÀûÂÊ:");
+	printf("è¯·è¾“å…¥ä½ çš„å¹´åˆ©ç‡:");
 	scanf("%lf",&rate);
 	
-	printf("ËùµÃÇ®:");
+	printf("æ‰€å¾—é’±:");
 	scanf("%lf",&money);
 
-	printf("´æ´¢Ê±¼ä³¤,µ¥Î»ÎªÄê:");
+	printf("å­˜å‚¨æ—¶é—´é•¿,å•ä½ä¸ºå¹´:");
 	scanf("%d",&year);
 
 	for(i=0;i<year;i++)
@@ -45,14 +45,14 @@ void ddd(){
 		money=money/(1+rate);
 		
 	}
-	printf("ËùĞèÒª´æ´¢µÄ±¾½ğÎª%.2lf",money);
+	printf("æ‰€éœ€è¦å­˜å‚¨çš„æœ¬é‡‘ä¸º%.2lf",money);
 	getchar();
 
 }
 main()
 {
 	int i;
-	ddds:		printf("µ¥Àû¼ÆËãÑ¡Ôñ1£¬Ñ¡ÔñÇó±¾½ğ°´2:");
+	ddds:		printf("å•åˆ©è®¡ç®—é€‰æ‹©1ï¼Œé€‰æ‹©æ±‚æœ¬é‡‘æŒ‰2:");
 	scanf("%d",&i);
 	if(i==1)
 	{
@@ -63,7 +63,7 @@ main()
 		ddd();
 	}
 	else 
-		printf("ÊäÈë´íÎó£¬ÇëÖØĞÂÊäÈë\n");
+		printf("è¾“å…¥é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥\n");
 		goto ddds;
 
 	}
