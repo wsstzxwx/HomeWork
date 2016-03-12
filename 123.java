@@ -6,12 +6,12 @@ import java.util.Scanner;
 public class woccc22 {
 
 	public static void main(String[] args) {
-		System.out.println("ÇëÊäÈëÄãµÄ±¾½ğ");
+		System.out.println("è¯·è¾“å…¥ä½ çš„æœ¬é‡‘");
 		Scanner scanner=new Scanner(System.in);
-		int principal=scanner.nextInt();//±¾½ğ
-		System.out.println("ÇëÊäÈëÄãµÄÄêÀûÂÊ");
+		int principal=scanner.nextInt();//æœ¬é‡‘
+		System.out.println("è¯·è¾“å…¥ä½ çš„å¹´åˆ©ç‡");
 		double rate=scanner.nextFloat();
-		System.out.println("ÇëÊäÈëÄãÒª´æ´¢µÄÊ±¼ä³¤£¬µ¥Î»ÎªÄê");
+		System.out.println("è¯·è¾“å…¥ä½ è¦å­˜å‚¨çš„æ—¶é—´é•¿ï¼Œå•ä½ä¸ºå¹´");
 		int year=scanner.nextInt();
 		// TODO Auto-generated method stub
 		double sum=principal;
@@ -21,7 +21,7 @@ public class woccc22 {
 			sum=sum+d;
 		}
 		sum=(int)(sum*10)/10.0;
-		System.out.println("ÄãµÄËùµÃÇ®ÊıÎª"+sum);
+		System.out.println("ä½ çš„æ‰€å¾—é’±æ•°ä¸º"+sum);
 	}
 	
 
